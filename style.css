@@ -116,18 +116,74 @@ font-weight: lighter;
     }
 .Our-Menu {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
-    gap: 20px;
-    color:white;
+    padding-top: 50px;
+    font-size: 100px;
+    color:rgb(246, 244, 243);
 }
 .menu-section{
-    background-image: url(https://i.pinimg.com/736x/60/7a/ca/607aca02b7fbcdc81f0215eaeea19117.jpg);
+    background-image: url(https://i.pinimg.com/1200x/6b/57/b9/6b57b9b35036cbe5b917fd07f8227404.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height:350px;
-
-
+    height: 350px;
 }
+.menu-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    color:rgba(38, 65, 38, 0.867);
+    padding-bottom: 10px;
+   
+    
+}
+.menu-content h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+     
+}
+
+ .menu-img{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+ }
+ .menu-img img{
+    height: 250px;
+    width: 300px;
+    
+ }
+.menu-image{
+    background-color: rgb(242, 237, 231);
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+.menu-images{
+    display: flex;
+    gap:50px;
+}
+.Desserts{
+    font-size: 25px;
+    padding-top: 10px;
+    text-align: center;
+}
+.menu-image-column1, .menu-image-column2, .menu-image-column3, .menu-image-column4, .menu-image-column5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    
+    
+}
+.menu-image-column1{
+    margin-left: 30px;
+}
+.menu-images img{
+    height:200px;
+    width: 250px;
+}
+
