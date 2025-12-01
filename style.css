@@ -114,6 +114,10 @@ font-weight: lighter;
         margin-top: 20px;
         margin-left: 20px;
     }
+.menu{
+    background-color: rgb(242, 237, 231);
+   
+}    
 .Our-Menu {
     display: flex;
     justify-content: center;
@@ -121,12 +125,17 @@ font-weight: lighter;
     padding-top: 50px;
     font-size: 100px;
     color:rgb(246, 244, 243);
+    
 }
 .menu-section{
-    background-image: url(https://i.pinimg.com/1200x/6b/57/b9/6b57b9b35036cbe5b917fd07f8227404.jpg);
+    background-image: url(https://i.pinimg.com/1200x/04/05/78/0405785dbb8bab22e84c209e92d81b42.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 350px;
+    background-position: center center; 
+    width: 100%;
+    height: 350px; 
+    
+    
 }
 .menu-content{
     display:flex;
@@ -135,6 +144,7 @@ font-weight: lighter;
     padding-top: 70px;
     color:rgba(38, 65, 38, 0.867);
     padding-bottom: 10px;
+    background-color: rgb(242, 237, 231);
    
     
 }
@@ -148,6 +158,7 @@ font-weight: lighter;
     display: flex;
     justify-content: center;
     gap: 30px;
+    background-color: rgb(242, 237, 231);
     
  }
  .menu-img img{
@@ -159,7 +170,10 @@ font-weight: lighter;
     background-color: rgb(242, 237, 231);
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    align-items: center;
+   padding-top: 50PX;
+   margin:100px;
+   background-image: url(https://i.pinimg.com/originals/b1/11/19/b11119ec3404d284dc2371a233bf3e0b.png);
     
 }
 .menu-images{
@@ -168,15 +182,15 @@ font-weight: lighter;
 }
 .Desserts{
     font-size: 25px;
-    padding-top: 10px;
     text-align: center;
+    padding-bottom: 50px;
 }
 .menu-image-column1, .menu-image-column2, .menu-image-column3, .menu-image-column4, .menu-image-column5{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    
+
     
 }
 .menu-image-column1{
@@ -186,4 +200,203 @@ font-weight: lighter;
     height:200px;
     width: 250px;
 }
+
+.Drinks{
+    background-image: url(https://i.pinimg.com/736x/f8/aa/f2/f8aaf278a31268a66e0960c49d01f42a.jpg);
+    
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding-top: 50px;
+     background-repeat: no-repeat;
+    background-size: cover;
+    margin:100px;
+}
+   
+
+
+.drink{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.drink-items{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.drink-item1, .drink-item2, .drink-item3{
+    display: flex;
+    gap: 300px;
+}
+.drink-item1 img, .drink-item2 img, .drink-item3 img{
+    height: 400px;
+    width: 350px;
+    padding-left: 100px;
+}
+.drink-item1 ul, .drink-item2 ul, .drink-item3 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 50px;
+}
+.drink-item1 h3, .drink-item2 h3, .drink-item3 h3{
+    display: flex;
+    justify-content: center;
+    font-style: italic; 
+}
+
+.drink-item2 ul, .drink-item3 ul{
+    padding-top: 50px;
+    
+}
+.drink-item2 h3, .drink-item3 h3{
+    padding-top: 50px;
+}
+
+
+.drink-item2 ul{
+    padding-left: 150px;
+}
+.drink-item2 h3{
+    padding-left: 150px;
+}
+.drink-item3-img{
+    padding-bottom: 50px;
+}
+
+.about-us-content{
+    
+}
+
+.about-us-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+.about-us-content h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: "Red Hat Display", Sans-serif;
+    padding-top: 200px;
+     
+}
+.about-us-content p{
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 50px;
+    
+    
+}
+.image1, .image2, .image3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.image1 img, .image2 img, .image3 img{
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+}
+.image3 img{
+    padding-bottom: 150px;
+}
+.image1 p, .image2 p, .image3 p{
+    font-size: 18px;
+    width: 400px;
+    text-align: center;
+    margin: 50px;
+}
+.image1 h2, .image2 h2, .image3 h2{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.About-Us{
+    background-image: url(https://i.pinimg.com/736x/ab/8b/cb/ab8bcbe86e2ae2fd006e5877a9f91ad1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-bottom: 100px; */
+
+}
+
+.Contact{
+    background-image: url(https://i.pinimg.com/1200x/5e/ac/c0/5eacc0d64ffb66b09e6c615823b5f43f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.Contact p{
+    font-size: 18px;
+    width:400px;
+    text-align: center;
+}
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 250px;
+    
+}
+.contact-content h1{
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+.contact-info {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.contact-info h1{
+    font-size: 40px;
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+.contact-info ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+.contact-info p{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+.email-address{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email-address p{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    gap:20px
+    
+}
+
+.email-address h1{
+    font-size: 40px;
+    padding-bottom: 40px;
+   
+}
+
 
