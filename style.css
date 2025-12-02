@@ -20,8 +20,17 @@ background-color:rgb(241, 239, 236);
 height: 100px;
 color : #880E4F;
 margin:0 ;
-
+position: fixed;
+width: 100%;
 }
+.menu-section{
+    padding-top: 100px;
+}
+
+.hero{
+    padding-top: 90px;
+}
+
 .logo-header{
     display: flex;
     align-items: center;
@@ -332,16 +341,19 @@ font-weight: lighter;
     background-image: url(https://i.pinimg.com/1200x/5e/ac/c0/5eacc0d64ffb66b09e6c615823b5f43f.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1000px;
+    height: 1500px;
     display: flex;
     flex-direction: column;
+   justify-content: center;
     align-items: center;
+   
    
 }
 .Contact p{
     font-size: 18px;
     width:400px;
     text-align: center;
+    padding-bottom: 50px;
 }
 .contact-content{
     display: flex;
@@ -351,8 +363,13 @@ font-weight: lighter;
     
 }
 .contact-content h1{
-    font-size: 40px;
+    font-size: 50px;
     padding-bottom: 40px;
+    padding-top: 200px;
+}
+.contact-content p{
+    font-size: 20px;
+    width:500px
 }
 .contact-info {
     display:flex;
@@ -361,9 +378,9 @@ font-weight: lighter;
    
 }
 .contact-info h1{
-    font-size: 40px;
+    font-size: 50px;
     padding-bottom: 40px;
-    padding-top: 50px;
+   
 }
 .contact-info ul{
     display: flex;
@@ -377,6 +394,30 @@ font-weight: lighter;
     padding-top: 30px;
     display: flex;
     justify-content: center;
+    
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+   
+}
+.location h1{
+    font-size: 40px;
+    padding-bottom: 40px;
+   
+}
+.location p{
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.location ul li{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
     
 }
 .email-address{
@@ -398,5 +439,4 @@ font-weight: lighter;
     padding-bottom: 40px;
    
 }
-
 
