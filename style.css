@@ -1,5 +1,4 @@
 *{
-    
     margin: 0;}
     
 ul {
@@ -38,6 +37,9 @@ width: 100%;
     gap: 25px;
     margin-left: 100px;
 }
+.navbar {
+    margin-right: 70px;
+}
 .navbar ul {
     display: flex;
     gap: 40px;
@@ -45,7 +47,7 @@ width: 100%;
     padding-left: px;
     color: #880E4F;
     font-size: 16px;
-    margin-right: 100px;
+    margin-right: 10px;
 }
 .hero{
     background-image: url(https://i.pinimg.com/1200x/63/6a/b6/636ab63818a87be5b920043823059a0d.jpg);
@@ -253,13 +255,15 @@ font-weight: lighter;
 }
 .drink-item1, .drink-item2, .drink-item3{
     display: flex;
-    gap: 300px;
+    justify-content: space-around;
+    gap: 450px;
 }
 .drink-item1 img, .drink-item2 img, .drink-item3 img{
     height: 400px;
     width: 350px;
-    padding-left: 100px;
+    
 }
+
 .drink-item1 ul, .drink-item2 ul, .drink-item3 ul{
     display: flex;
     flex-direction: column;
@@ -293,7 +297,7 @@ font-weight: lighter;
 }
 
 .drink-item3-img{
-    padding-bottom: 50px;
+    padding-bottom: 170px;
 }
 
 
@@ -463,9 +467,6 @@ font-weight: lighter;
 
  @media (max-width: 1024px) {
     
-
-
-
     #Welcome {
         font-size: 30px;
         padding-left: ;
@@ -479,13 +480,9 @@ font-weight: lighter;
         font-size: 18px;
     }
 
-    
-    
-
     #pastry {
         font-size: 20px;
     }
-
 
     .menu-img img {
         width: 250px;
@@ -506,9 +503,6 @@ font-weight: lighter;
         width: 170px;
         height: 170px;
     }
-
-   
-    
 
     .drink-item1,
     .drink-item2,
@@ -532,9 +526,6 @@ font-weight: lighter;
         padding-top: 15px;
     }
 
-
-
-    
     .about-us-content h1 {
         font-size: 32px;
         padding-top: 150px;
@@ -610,7 +601,7 @@ font-weight: lighter;
             /*Tablet*/
 @media (max-width: 768px) {
          
-/*home-page*/
+          /*home-page*/
     #Welcome {
         font-size: 32px;  
     }
@@ -630,12 +621,18 @@ font-weight: lighter;
         width: 50px;
         height: auto;
     }
+    .logo-header{
+        margin-right: 20px;
+    }
 
     #title {
         font-size: 18px;
     }
 
-    
+    .navbar{
+        display: flex;
+        margin-left: 20px;
+    }
     .navbar ul {
         
         gap: 14px;              
@@ -686,6 +683,8 @@ font-weight: lighter;
 
     #copyright p {
         font-size: 11px;
+        margin-top: 10px;;
+        text-align: center;
     }
 
 
@@ -694,6 +693,7 @@ font-weight: lighter;
 .Our-Menu {
         font-size: 70px;
         padding-top: 30px;
+       
     }
 
     .menu-section {
@@ -709,13 +709,12 @@ font-weight: lighter;
         font-size: 16px;
             
     }
-
-    
-    
-
+.menu-image{
+    margin: 70px;
+}
     .menu-image1 img, .menu-image2 img ,.menu-image3 img {
-        height: 180px;
-        width: 180px;
+        height: 200px;
+        width: 200px;
         
     }
 
@@ -726,12 +725,14 @@ font-weight: lighter;
         font-size: 20px;
         padding-bottom: 20px;
     }
-
+    .menu-img img{
+        width:190px;
+        height:190px;
+    }
     .menu-images {
         display: flex;
         flex-direction:row; 
-        gap:5px;
-        
+        gap:15px; 
     }
 
     .menu-image h3{
@@ -740,15 +741,18 @@ font-weight: lighter;
     }
 
     .menu-images img {
-        width: 120px;
-        height: 100px;
+        width: 140px;
+        height: 130px;
        
+    }
+    .menu-image-column4{
+        margin-right: 25px;
     }
   
   
     /* DRINKS  */
     .Drinks {
-        margin: 100px ;
+        margin: 70px ;
         background-position: center;
     }
 
@@ -759,13 +763,8 @@ font-weight: lighter;
     }
 
     .drink h1 {
-        font-size: 27px;
+        font-size: 30px;
     }
-
-   .drink-item3{
-    display: flex;
-    justify-content: space-around;
-   }
 
 .drink-item1 img,
 .drink-item2 img,
@@ -774,34 +773,37 @@ font-weight: lighter;
         height: 200px;
         
     }
+.drink-item1,
+.drink-item2 ,
+.drink-item3 {
+    display:flex;
+    justify-content: space-around;
+    gap:130px;
+}   
 
-.drink-item1 img{
-    padding-top: 80px;
-    padding-left: 70px;
-}    
-.drink-item2 img{
-   
-    padding-top: 50px;
-    padding-right: 50px;
-}
-.drink-item3 img{
+ .drink-item1 img{
+    padding-top: 100px;
+    padding-right: 40px;
+}     
+.hot{
     padding-top: 70px;
-    padding-left: 70px;
-    padding-bottom: 50px;
 }
+
+ .drink-item3 img{
+    padding-top: 70px;
+   
+}  
+.drink-item2 img{
+    padding-top: 50px;
+    padding-left: 30px;
+   
+}  
   
 .drink-item1 ul li,
-.drink-item2 ul li,
+.drink-item2 ul li ,
 .drink-item3 ul li {
         font-size: 14px;
     }
-.drink-item3 ul  {
-    padding-bottom: 150px;
-}
-
-.drink-item3 ul li{
-    padding-right: 120px;
-}
 
 /*ABOUT US*/
 .about-us-content {
@@ -812,7 +814,7 @@ font-weight: lighter;
 
     .about-us-content h1 {
         font-size: 26px;
-        padding-top: 50px;
+        padding-top: 80px;
         text-align: center;
     }
 
@@ -842,11 +844,11 @@ font-weight: lighter;
         text-align: center;
     }
   .image3 h2{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
 
   .image3 p {
-    padding-bottom: 40px;
+    padding-bottom: 100px;
   }
     
     .image1 p,
@@ -866,8 +868,6 @@ font-weight: lighter;
     }
     /*CONTACT*/
 
-
-    
     .contact-content {
         padding-top: 20px;
     }
@@ -930,11 +930,414 @@ font-weight: lighter;
     }
 
 }
+@media (max-width: 320px) {
+
+    /* HEADER */
+    .header {
+       
+        text-align: center;
+        position: fixed;
+        
+    }
+
+    .logo-header {
+        margin: 0;
+        gap: 8px;
+        
+    }
+
+    .logo-header img {
+        width: 50px;
+        height: 40px;
+        margin: 0;
+    }
+
+    #title {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .navbar {
+        margin-right: 0;
+        
+    }
+
+    .navbar ul {
+        
+        gap: 8px;
+        margin: 0;
+        padding:0px;
+        font-size: 8px;
+    }
+
+    /* HERO SECTION */
+    .hero {
+        padding-top: 230px; 
+        background-image:url(images/home-page-BG.png) ;
+        background-size: cover;
+         
+       
+    }
+
+    .hero-content {
+        padding-top: 60px;
+        padding-right: 30px;
+        text-align: center;
+    }
+
+    #Welcome {
+        font-size: 17px;
+        padding: 0 10px;
+    }
+
+    #pastry {
+        font-size: 15px;
+    }
+
+    .quote {
+        font-size: 12px;
+        padding: 0 12px;
+    }
+
+    .button {
+        padding: 8px 14px;
+        margin-top: 25px;
+        font-size: 12px;
+    }
+
+    /* FOOTER */
+    footer {
+        
+        gap: 10px;
+        padding: 25px 10px;
+        text-align: center;
+    }
+
+
+    .footer-logo img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #logo-title h2 {
+        font-size: 13px;
+    }
+
+    #logo-title p {
+        font-size: 8px;
+        
+    }
+
+    #contact-info ul {
+        padding: 0;
+        font-size: 8px;
+    }
+
+    #footer-nav {
+        
+        gap: 5px;
+    }
+
+    #footer-nav ul {
+        
+        gap: 6px;
+        padding: 0;
+        font-size: 8px;
+    }
+
+    #copyright p {
+        margin: 0;
+        padding: 0;
+        font-size: 5px;
+    }
+/*MENU*/
+.menu-section {
+        height:150px ; 
+        background-position: center ; 
+    }
+
+    .Our-Menu h1 {
+        font-size: 70px;
+    }
     
+    .menu-content {
+        padding-top: 40px;
+        padding-bottom: 20px;
+        
+    }
+
+    .menu-content h1 {
+        font-size: 20px;
+    }
+
+    .menu-content p {
+        font-size: 10px;
+        padding:0 12px;
+        text-align: center;
+    }
+
+   
+    .menu-img {
+        
+        gap: 3px;
+        padding: 0 10px;
+    }
+
+    .menu-img img {
+        width: 100px;
+        height: 100px;
+        
+    }
+
+    
+    .menu-image {
+        margin: 7px;
+        padding: 20px 0;
+        
+    }
+
+    .Desserts {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+
+    .menu-images {
+        
+        
+        margin:0;
+        padding: 0;
+    }
+    .menu-image-column1 img 
+     {
+       margin-left: 15px;
+       
+     }
+     .menu-image-column1 h3{
+        margin-left: 15px;
+     }
+
+    .menu-images img {
+        width: 60px;
+        height: 60px;
+            
+    }
+
+    .menu-images h3 {
+        font-size: 8px;
+        width: 100%;
+          
+    }
+
+    .menu-image-column1,
+    .menu-image-column2,
+    .menu-image-column3,
+    .menu-image-column4 {
+        margin-left: 0;
+        gap: 20px;
+    }
+
+    
+    .Drinks {
+        margin: 10px;
+        padding: 20px 0;
+    }
+    .drink h1{
+        font-size: 20px;
+        text-align: center;
+        padding-right: 10px;
+    }
+
+    .drink-item1,
+    .drink-item2,
+    .drink-item3 {
+       
+        gap: 20px;
+        align-items: center;
+    }
+
+    .drink-item1 img,
+    .drink-item2 img,
+    .drink-item3 img {
+        width: 130px;
+        height: 140px;
+     
+    }
+
+.drink-item1 ul li,
+.drink-item2 ul li ,
+.drink-item3 ul li {
+        padding: 0;
+        font-size: 10px;
+        height:1px;
+    }
+
+    .drink-item1 h3,
+    .drink-item2 h3,
+    .drink-item3 h3 {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    
+    .drink-item2 img {
+        padding-left: 40px;
+        padding-bottom:30px ;
+    }
+
+    .drink-item3-img {
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
+    .drink-item1 img{
+        padding-left: 15px;
+    }
+.hot{
+    padding-left: 5px;
+}
+.Cold{
+    padding-left: 20px;
+}
+.ICED{
+    padding-left: 15px;
+}
+/*ABOUT US*/
+.About-Us {
+       
+        background-position: center;
+        background-size: cover;
+        
+    }
+
+    .about-us-content h1 {
+        font-size: 24px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    .about-us-content p {
+        font-size: 10px;
+    }
+
+    /* ---------- IMAGE + TEXT SECTIONS ----------- */
+    .image1, .image2, .image3 {
+       
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .image1 img, 
+    .image2 img, 
+    .image3 img {
+        width: 150px;
+        height: 150px;
+        padding-left: 20px;
+        
+    }
+.image2 img{
+    padding-right: 35px;
+}
+    .image3 img {
+        padding-bottom: 30px;
+    }
+
+    .image1 h2, 
+    .image2 h2, 
+    .image3 h2 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+.image2 h2{
+    padding-left: 28px;
+}
+    .image1 p, 
+    .image2 p, 
+    .image3 p {
+        width: 120px;
+        font-size: 8px;
+        
+    }
+
+    /* CONTACT*/
+     .Contact {
+        
+        background-position: top LEFT;
+        height: auto;
+        padding-top: 100px; 
+        padding-bottom: 60px;
+    }
+
+    .Contact p {
+        width: 80%;
+        font-size: 12px;
+        padding-bottom: 25px;
+    }
+
+    
+    .contact-content H1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .contact-content p {
+        width: 95%;
+        font-size: 12px;
+        line-height: 1.5;
+        padding: 0 10px 20px;
+    }
+
+    
+    .contact-info h1 {
+        font-size: 25px;
+        padding-bottom: 20px;
+        text-align: center;
+        padding-right: 50px;
+    }
+
+    .contact-info ul li {
+        font-size: 12px;
+        gap: 7px;
+        padding-right: 50px;
+    }
+
+    .contact-info p {
+        font-size: 12px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    
+    .location h1 {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .location p {
+        font-size: 12px;
+        width: 95%;
+        padding-bottom: 10px;
+    }
+
+    .location ul li {
+        font-size: 11px;
+        padding: 5px;
+        width: 100%;
+        
+    }
+    .location ul{
+        padding-right: 25px;
+    }
+
+    
+    .email-address h1 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+
+    .email-address p {
+        font-size: 14px;
+        padding: 0 10px;
+        line-height: 1.5;
+    }
 
 
-
- 
-
-
-
+}
