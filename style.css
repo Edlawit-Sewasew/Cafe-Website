@@ -198,6 +198,9 @@ font-weight: lighter;
    background-image: url(https://i.pinimg.com/originals/b1/11/19/b11119ec3404d284dc2371a233bf3e0b.png);
     
 }
+body{
+    background-color: rgb(242, 237, 231);
+}
 .menu-images{
     display: flex;
     gap:50px;
