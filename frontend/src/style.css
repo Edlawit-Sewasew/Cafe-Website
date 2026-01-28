@@ -1,0 +1,1557 @@
+*{
+    margin: 0;}
+    
+ul {
+    list-style: none;
+    
+}
+a {
+    text-decoration: none;
+    color: #880E4F;
+    font-weight: bold;
+   }
+
+.header{
+display:flex;
+justify-content: space-between;
+align-items: center;
+background-color:rgb(241, 239, 236); 
+height: 100px;
+color : #880E4F;
+margin:0 ;
+position: fixed;
+width: 100%;
+
+}
+.menu-section{
+    padding-top: 100px;
+}
+
+.logo-header{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: 100px;
+}
+.navbar {
+    margin-right: 70px;
+}
+.navbar ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding-left: px;
+    color: #880E4F;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: #880E4F;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.hero{
+    background-image: url(https://i.pinimg.com/1200x/63/6a/b6/636ab63818a87be5b920043823059a0d.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 90px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.hero-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 295px;
+    color: #880E4F;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#Welcome{
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0 2px 4px rgba(255, 255, 255, 0.9);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#pastry{
+    font-size: 25px;
+}
+.quote{
+    padding-top: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+.button{
+    margin-top: 30px;
+    padding:10px;
+    border-color: #880E4F;
+}
+ footer{ 
+    background-color: rgb(146, 83, 88);
+    text-align: center;
+    padding: 20px;
+    color: #e9e0e5;
+    display: flex;
+    justify-content:space-around;
+    
+}
+#footer-nav{
+    display: flex;
+    gap:0;
+}
+.footer-nav1 ul ,.footer-nav2 ul{
+    display:flex;
+    padding-bottom: 0;
+    flex-direction: column;
+    
+}
+#copyright{
+    font-size: 14px;
+    font-weight: lighter;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+#footer-nav ul {
+    gap: 20px;
+    display: flex;
+   
+    
+}
+
+#footer-nav ul li a {
+    color: white;
+font-weight: lighter;
+ }
+ #logo-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    gap: 5px; 
+    
+ }
+
+     .logo-footer{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    #copyright p{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+.menu{
+    background-color: rgb(242, 237, 231);
+   
+}    
+.Our-Menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    font-size: 100px;
+    color:rgb(246, 244, 243);
+    
+}
+.menu-section{
+    background-image: url(https://i.pinimg.com/1200x/04/05/78/0405785dbb8bab22e84c209e92d81b42.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    width: 100%;
+    height: 350px; 
+    
+    
+}
+.menu-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    color:rgba(38, 65, 38, 0.867);
+    padding-bottom: 10px;
+    background-color: rgb(242, 237, 231);
+   
+    
+}
+.menu-content h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+     
+}
+
+ .menu-img{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(242, 237, 231);
+    
+ }
+ .menu-img img{
+    height: 250px;
+    width: 300px;
+    
+ }
+.menu-image{
+    background-color: rgb(242, 237, 231);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding-top: 50PX;
+   margin:100px;
+   background-image: url(https://i.pinimg.com/originals/b1/11/19/b11119ec3404d284dc2371a233bf3e0b.png);
+    
+}
+body{
+    background-color: rgb(242, 237, 231);
+}
+.menu-images{
+    display: flex;
+    gap:50px;
+}
+.Desserts{
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.menu-image-column1, .menu-image-column2, .menu-image-column3, .menu-image-column4, .menu-image-column5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+    
+}
+.menu-image-column1{
+    margin-left: 30px;
+}
+
+.menu-image-column1-1 h3{
+    width:230px;
+}
+.menu-images img{
+    height:200px;
+    width: 250px;
+}
+
+.Drinks{
+    background-image: url(https://i.pinimg.com/736x/f8/aa/f2/f8aaf278a31268a66e0960c49d01f42a.jpg);
+    
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding-top: 50px;
+     background-repeat: no-repeat;
+    background-size: cover;
+    margin:100px;
+}
+   
+
+
+.drink{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.drink-items{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.drink-item1, .drink-item2, .drink-item3{
+    display: flex;
+    justify-content: space-around;
+    gap: 450px;
+}
+.drink-item1 img, .drink-item2 img, .drink-item3 img{
+    height: 400px;
+    width: 350px;
+    
+}
+
+.drink-item1 ul, .drink-item2 ul, .drink-item3 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 50px;
+}
+.drink-item1 h3, .drink-item2 h3, .drink-item3 h3{
+    display: flex;
+    justify-content: center;
+    font-style: italic; 
+}
+
+.drink-item2 ul, .drink-item3 ul{
+    padding-top: 50px;
+    
+}
+.drink-item2 h3, .drink-item3 h3{
+    padding-top: 50px;
+}
+
+
+.drink-item2 ul li{
+    padding-left: 80px;
+}
+.drink-item2 h3{
+    padding-left: 70px;
+}
+
+.drink-item3-img{
+    padding-bottom: 170px;
+}
+
+
+ .menu-image-column1 div:hover, .menu-image-column2 div:hover,
+ .menu-image-column3 div:hover, .menu-image-column4 div:hover,
+ .menu-image-column5 div:hover{ 
+    transform:translateY(-5px);
+    
+} 
+
+.about-us-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+.about-us-content h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: "Red Hat Display", Sans-serif;
+    padding-top: 200px;
+     
+}
+.about-us-content p{
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 50px;
+    
+    
+}
+.image1, .image2, .image3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.image1 img, .image2 img, .image3 img{
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+}
+.image3 img{
+    padding-bottom: 150px;
+}
+.image1 p, .image2 p, .image3 p{
+    font-size: 18px;
+    width: 400px;
+    text-align: center;
+    margin: 50px;
+}
+.image1 h2, .image2 h2, .image3 h2{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.About-Us{
+    background-image: url(https://i.pinimg.com/736x/ab/8b/cb/ab8bcbe86e2ae2fd006e5877a9f91ad1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.Contact{
+    background-image: url(https://i.pinimg.com/1200x/5e/ac/c0/5eacc0d64ffb66b09e6c615823b5f43f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+   
+   
+}
+.Contact p{
+    font-size: 18px;
+    width:400px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    
+}
+.contact-content h1{
+    font-size: 50px;
+    padding-bottom: 40px;
+    padding-top: 0;
+}
+.contact-content p{
+    font-size: 20px;
+    width:500px
+}
+.contact-info {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.contact-info h1{
+    font-size: 50px;
+    padding-bottom: 40px;
+   
+}
+.contact-info ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+.contact-info p{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+   
+}
+.location h1{
+    font-size: 40px;
+    padding-bottom: 40px;
+   
+}
+.location p{
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.location ul li{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+.email-address{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email-address p{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    gap:20px
+    
+}
+
+.email-address h1{
+    font-size: 40px;
+    padding-bottom: 40px;
+   
+}
+
+/* Contact Form Styling */
+.contact-form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    width: 100%;
+}
+
+.contact-form-section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-section label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #880E4F;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+.contact-form-section label:first-child {
+    margin-top: 0;
+}
+
+.contact-form-section input[type="text"],
+.contact-form-section input[type="email"],
+.contact-form-section textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #880E4F;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    box-sizing: border-box;
+    font-family: inherit;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form-section input[type="text"]:focus,
+.contact-form-section input[type="email"]:focus,
+.contact-form-section textarea:focus {
+    outline: none;
+    border-color: rgb(146, 83, 88);
+    box-shadow: 0 0 5px rgba(136, 14, 79, 0.3);
+}
+
+.contact-form-section textarea {
+    min-height: 120px;
+    resize: vertical;
+    font-family: inherit;
+}
+
+.contact-form-section button[type="submit"] {
+    margin-top: 30px;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #880E4F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    align-self: center;
+    min-width: 150px;
+}
+
+.contact-form-section button[type="submit"]:hover {
+    background-color: rgb(146, 83, 88);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form-section button[type="submit"]:active {
+    transform: translateY(0);
+}
+
+
+ @media (max-width: 1024px) {
+    
+    #Welcome {
+        font-size: 30px;
+        
+    }
+
+    #pastry {
+        font-size: 20px;
+    }
+
+    .quote {
+        font-size: 18px;
+    }
+
+    #pastry {
+        font-size: 20px;
+    }
+
+    .menu-img img {
+        width: 250px;
+        height: 200px;
+    }
+
+    .menu-images{
+       gap:25px;
+      
+    }
+    .menu-images h3{
+        font-size: 16px;
+        width:150px
+    }
+
+    
+    .menu-images img {
+        width: 170px;
+        height: 170px;
+    }
+
+    .drink-item1,
+    .drink-item2,
+    .drink-item3 {
+        gap: 250px;
+        
+    }
+
+    .drink-item1 img,
+    .drink-item2 img,
+    .drink-item3 img {
+        width: 250px;
+        height: 300px;
+        padding-left: 0;
+    }
+
+    .drink-item1 ul,
+    .drink-item2 ul,
+    .drink-item3 ul {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+
+    .about-us-content h1 {
+        font-size: 32px;
+        padding-top: 150px;
+    }
+
+    .about-us-content p {
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .image1,
+    .image2,
+    .image3 {
+        
+        text-align: center;
+        gap: 20px;
+        padding-top: 40px;
+    }
+
+    .image1 img,
+    .image2 img,
+    .image3 img {
+        width: 250px;
+        height: 250px;
+        margin: 20px;
+    }
+
+    .image3 img {
+        padding-bottom: 0;
+    }
+
+    .image1 p,
+    .image2 p,
+    .image3 p {
+        width: 400px;
+        margin: 20px auto;
+        font-size: 16px;
+    }
+
+    .image1 h2,
+    .image2 h2,
+    .image3 h2 {
+        font-size: 22px;
+    }
+
+
+
+    .contact-content h1 {
+        font-size: 40px;
+        padding-top: 0;
+    }
+.phone-numbers h1{
+    padding-left : 50px;
+}
+
+    .contact-content p,
+    .contact-info ul li,
+    .location p,
+    .location ul li,
+    .email-address p {
+        
+        font-size: 18px;
+    }
+
+    .contact-info h1,
+    .location h1,
+    .email-address h1 {
+        font-size: 35px;
+    }
+
+    .contact-form-section form {
+        max-width: 450px;
+        padding: 35px;
+    }
+
+    .contact-form-section label {
+        font-size: 16px;
+    }
+
+    .contact-form-section input[type="text"],
+    .contact-form-section input[type="email"],
+    .contact-form-section textarea {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .contact-form-section button[type="submit"] {
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+
+}  
+
+            /*Tablet*/
+@media (max-width: 768px) {
+         
+          /*home-page*/
+    #Welcome {
+        font-size: 32px;  
+    }
+
+    #pastry {
+        font-size: 18px;
+    }
+
+    .quote {
+        font-size: 16px;
+        padding-top: 15px;
+        width: 85%; 
+    }
+
+    
+    .logo-header img {
+        width: 50px;
+        height: auto;
+    }
+    .logo-header{
+        margin-right: 20px;
+    }
+
+    #title {
+        font-size: 18px;
+    }
+
+    .navbar{
+        display: flex;
+        margin-left: 20px;
+    }
+    .navbar ul {
+        
+        gap: 14px;              
+        font-size:14px;
+        
+    }
+
+    #menu-toggle {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbar.nav-open {
+        display: block;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        background-color: rgb(241, 239, 236);
+        padding: 20px;
+    }
+
+    .navbar.nav-open ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .hero-content h1{
+        padding-top: 45px;
+        padding-left: 20px;
+    }
+    
+
+    #pastry {
+        font-size: 20px;
+    }
+
+    .hero-content {
+        padding-top: 210px;
+        padding-left:50px ;
+    }
+
+   
+    
+    .logo-footer img {
+        width: 60px;            
+        height: auto;
+    }
+
+    #logo-title h2 {
+        font-size: 16px;
+    }
+
+    #logo-title p {
+        font-size: 12px;
+        
+    }
+
+    #contact-info ul {
+        font-size: 13px;
+       
+    }
+
+    #footer-nav ul {
+       
+        font-size: 13px;
+       
+    }
+
+    #copyright p {
+        font-size: 11px;
+        margin-top: 10px;;
+        text-align: center;
+    }
+
+
+  /*MENU PAGE*/
+  
+.Our-Menu {
+        font-size: 70px;
+        padding-top: 30px;
+       
+    }
+
+    .menu-section {
+        height: 220px;
+        
+    }
+
+    .menu-content h1 {
+        font-size: 30px;
+    }
+
+    .menu-content p {
+        font-size: 16px;
+            
+    }
+.menu-image{
+    margin: 70px;
+}
+    .menu-image1 img, .menu-image2 img ,.menu-image3 img {
+        height: 200px;
+        width: 200px;
+        
+    }
+
+    /* DESSERTS */
+    
+
+    .Desserts {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    .menu-img img{
+        width:190px;
+        height:190px;
+    }
+    .menu-images {
+        display: flex;
+        flex-direction:row; 
+        gap:15px; 
+    }
+
+    .menu-image h3{
+        font-size:14px;
+        width:130px;
+    }
+
+    .menu-images img {
+        width: 140px;
+        height: 130px;
+       
+    }
+    .menu-image-column4{
+        margin-right: 25px;
+    }
+  
+  
+    /* DRINKS  */
+    .Drinks {
+        margin: 70px ;
+        background-position: center;
+    }
+
+    .drink {
+        padding-bottom: 60px;
+        padding-left: 50px;
+        
+    }
+
+    .drink h1 {
+        font-size: 30px;
+    }
+
+.drink-item1 img,
+.drink-item2 img,
+.drink-item3 img {
+        width:200px ;
+        height: 200px;
+        
+    }
+.drink-item1,
+.drink-item2 ,
+.drink-item3 {
+    display:flex;
+    justify-content: space-around;
+    gap:130px;
+}   
+
+ .drink-item1 img{
+    padding-top: 100px;
+    padding-right: 40px;
+}     
+.hot{
+    padding-top: 70px;
+}
+
+ .drink-item3 img{
+    padding-top: 70px;
+   
+}  
+.drink-item2 img{
+    padding-top: 50px;
+    padding-left: 30px;
+   
+}  
+  
+.drink-item1 ul li,
+.drink-item2 ul li ,
+.drink-item3 ul li {
+        font-size: 14px;
+    }
+
+/*ABOUT US*/
+.about-us-content {
+        padding-top: 100px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .about-us-content h1 {
+        font-size: 26px;
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    .about-us-content p {
+        font-size: 14px;
+        text-align: center;
+        width: 80%;
+        
+    }
+
+
+    .image1 img,
+    .image2 img,
+    .image3 img {
+        
+        margin: 20px 0;
+        width: 200px;
+        height: 200px;
+    }
+
+   
+    .image1 h2,
+    .image2 h2,
+    .image3 h2 {
+        font-size: 18px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+  .image3 h2{
+    padding-bottom: 10px;
+  }
+
+  .image3 p {
+    padding-bottom: 100px;
+  }
+    
+    .image1 p,
+    .image2 p,
+    .image3 p {
+        font-size: 14px;
+        width: 300px;
+        text-align: center;
+        margin: 10px 0 30px 0;
+    }
+    .image2 p{
+        padding-left: 30px;
+    }
+
+    .image3 img {
+        padding-bottom: 50px;
+    }
+    /*CONTACT*/
+
+    .contact-content {
+        padding-top: 30px;
+    }
+
+    .contact-content h1 {
+        font-size: 35px;
+        padding-top: 0;
+        padding-bottom: 20px;
+        
+    }
+
+    .contact-content p {
+        font-size: 18px;
+
+    }
+
+    .contact-info h1 {
+        font-size: 30px;
+        
+        
+    }
+
+    .contact-info ul {
+        font-size: 18px;
+       
+    }
+
+    .contact-info p {
+        padding-top: 20px;
+        font-size: 18px;
+    }
+
+    
+    .location h1 {
+        font-size: 28px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .location p {
+        font-size: 18px;
+        
+    }
+
+    .location ul li {
+        font-size: 18px;
+       
+    }
+
+   
+    .email-address h1 {
+        font-size: 28px;
+        padding-bottom: 20px;
+        
+    }
+
+    .email-address p {
+        font-size: 18px;
+        
+    }
+
+    .contact-form-section {
+        padding: 30px 15px;
+    }
+
+    .contact-form-section form {
+        max-width: 100%;
+        padding: 30px 20px;
+    }
+
+    .contact-form-section label {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .contact-form-section input[type="text"],
+    .contact-form-section input[type="email"],
+    .contact-form-section textarea {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .contact-form-section textarea {
+        min-height: 100px;
+    }
+
+    .contact-form-section button[type="submit"] {
+        font-size: 16px;
+        padding: 10px 25px;
+        margin-top: 25px;
+    }
+}
+
+  
+
+@media (max-width: 320px) {
+
+    /* HEADER */
+    .header {
+       
+        text-align: center;
+        position: fixed;
+        
+    }
+
+    .logo-header {
+        margin: 0;
+        gap: 8px;
+        
+    }
+
+    .logo-header img {
+        width: 50px;
+        height: 40px;
+        margin: 0;
+    }
+
+    #title {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .navbar {
+        margin-right: 0;
+        
+    }
+
+    .navbar ul {
+        
+        gap: 8px;
+        margin: 0;
+        padding:0px;
+        font-size: 8px;
+    }
+
+    /* HERO SECTION */
+    .hero {
+        padding-top: 230px; 
+        background-size: cover;
+         
+       
+    }
+
+    .hero-content {
+        padding-top: 60px;
+        padding-right: 30px;
+        text-align: center;
+    }
+
+    #Welcome {
+        font-size: 17px;
+        padding: 0 10px;
+    }
+
+    #pastry {
+        font-size: 15px;
+    }
+
+    .quote {
+        font-size: 12px;
+        padding: 0 12px;
+    }
+
+    .button {
+        padding: 8px 14px;
+        margin-top: 25px;
+        font-size: 12px;
+    }
+
+    /* FOOTER */
+    footer {
+        
+        gap: 10px;
+        padding: 25px 10px;
+        text-align: center;
+    }
+
+
+    .footer-logo img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #logo-title h2 {
+        font-size: 13px;
+    }
+
+    #logo-title p {
+        font-size: 8px;
+        
+    }
+
+    #contact-info ul {
+        padding: 0;
+        font-size: 8px;
+    }
+
+    #footer-nav {
+        
+        gap: 5px;
+    }
+
+    #footer-nav ul {
+        
+        gap: 6px;
+        padding: 0;
+        font-size: 8px;
+    }
+
+    #copyright p {
+        margin: 0;
+        padding: 0;
+        font-size: 5px;
+    }
+/*MENU*/
+.menu-section {
+        height:150px ; 
+        background-position: center ; 
+    }
+
+    .Our-Menu h1 {
+        font-size: 70px;
+    }
+    
+    .menu-content {
+        padding-top: 40px;
+        padding-bottom: 20px;
+        
+    }
+
+    .menu-content h1 {
+        font-size: 20px;
+    }
+
+    .menu-content p {
+        font-size: 10px;
+        padding:0 12px;
+        text-align: center;
+    }
+
+   
+    .menu-img {
+        
+        gap: 3px;
+        padding: 0 10px;
+    }
+
+    .menu-img img {
+        width: 100px;
+        height: 100px;
+        
+    }
+
+    
+    .menu-image {
+        margin: 7px;
+        padding: 20px 0;
+        
+    }
+
+    .Desserts {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+
+    .menu-images {
+        
+        
+        margin:0;
+        padding: 0;
+    }
+    .menu-image-column1 img 
+     {
+       margin-left: 15px;
+       
+     }
+     .menu-image-column1 h3{
+        margin-left: 15px;
+     }
+
+    .menu-images img {
+        width: 60px;
+        height: 60px;
+            
+    }
+
+    .menu-images h3 {
+        font-size: 8px;
+        width: 100%;
+          
+    }
+
+    .menu-image-column1,
+    .menu-image-column2,
+    .menu-image-column3,
+    .menu-image-column4 {
+        margin-left: 0;
+        gap: 20px;
+    }
+
+    
+    .Drinks {
+        margin: 10px;
+        padding: 20px 0;
+    }
+    .drink h1{
+        font-size: 20px;
+        text-align: center;
+        padding-right: 10px;
+    }
+
+    .drink-item1,
+    .drink-item2,
+    .drink-item3 {
+       
+        gap: 20px;
+        align-items: center;
+    }
+
+    .drink-item1 img,
+    .drink-item2 img,
+    .drink-item3 img {
+        width: 130px;
+        height: 140px;
+     
+    }
+
+.drink-item1 ul li,
+.drink-item2 ul li ,
+.drink-item3 ul li {
+        padding: 0;
+        font-size: 10px;
+        height:1px;
+    }
+
+    .drink-item1 h3,
+    .drink-item2 h3,
+    .drink-item3 h3 {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    
+    .drink-item2 img {
+        padding-left: 40px;
+        padding-bottom:30px ;
+    }
+
+    .drink-item3-img {
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
+    .drink-item1 img{
+        padding-left: 15px;
+    }
+.hot{
+    padding-left: 5px;
+}
+.Cold{
+    padding-left: 20px;
+}
+.ICED{
+    padding-left: 15px;
+}
+/*ABOUT US*/
+.About-Us {
+       
+        background-position: center;
+        background-size: cover;
+        
+    }
+
+    .about-us-content h1 {
+        font-size: 24px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    .about-us-content p {
+        font-size: 10px;
+    }
+
+    .image1, .image2, .image3 {
+       
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .image1 img, 
+    .image2 img, 
+    .image3 img {
+        width: 150px;
+        height: 150px;
+        padding-left: 20px;
+        
+    }
+.image2 img{
+    padding-right: 35px;
+}
+    .image3 img {
+        padding-bottom: 30px;
+    }
+
+    .image1 h2, 
+    .image2 h2, 
+    .image3 h2 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+.image2 h2{
+    padding-left: 28px;
+}
+    .image1 p, 
+    .image2 p, 
+    .image3 p {
+        width: 120px;
+        font-size: 8px;
+        
+    }
+
+    /* CONTACT*/
+     .Contact {
+        
+        background-position: top LEFT;
+        height: auto;
+        padding-top: 100px; 
+        padding-bottom: 60px;
+    }
+
+    .Contact p {
+        width: 80%;
+        font-size: 12px;
+        padding-bottom: 25px;
+    }
+
+    
+    .contact-content H1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .contact-content p {
+        width: 95%;
+        font-size: 12px;
+        line-height: 1.5;
+        padding: 0 10px 20px;
+    }
+
+    
+    .contact-info h1 {
+        font-size: 25px;
+        padding-bottom: 20px;
+        text-align: center;
+        padding-right: 50px;
+    }
+
+    .contact-info ul li {
+        font-size: 12px;
+        gap: 7px;
+        padding-right: 50px;
+    }
+
+    .contact-info p {
+        font-size: 12px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    
+    .location h1 {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .location p {
+        font-size: 12px;
+        width: 95%;
+        padding-bottom: 10px;
+    }
+
+    .location ul li {
+        font-size: 11px;
+        padding: 5px;
+        width: 100%;
+        
+    }
+    .location ul{
+        padding-right: 25px;
+    }
+
+    
+    .email-address h1 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+
+    .email-address p {
+        font-size: 14px;
+        padding: 0 10px;
+        line-height: 1.5;
+    }
+
+    .contact-form-section {
+        padding: 20px 10px;
+    }
+
+    .contact-form-section form {
+        padding: 20px 15px;
+        border-radius: 8px;
+    }
+
+    .contact-form-section label {
+        font-size: 14px;
+        margin-top: 12px;
+        margin-bottom: 6px;
+    }
+
+    .contact-form-section input[type="text"],
+    .contact-form-section input[type="email"],
+    .contact-form-section textarea {
+        font-size: 12px;
+        padding: 8px;
+        border-width: 1.5px;
+    }
+
+    .contact-form-section textarea {
+        min-height: 80px;
+    }
+
+    .contact-form-section button[type="submit"] {
+        font-size: 14px;
+        padding: 10px 20px;
+        margin-top: 20px;
+        min-width: 120px;
+    }
+}
